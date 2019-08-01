@@ -8,3 +8,7 @@
 
 ### oc adm manage-node node01 --schedulable=false
 ### oc adm manage-node node01 --schedulable=true
+
+# Evacuating pods on nodes
+
+### oc adm manage-node  node01 --evacuate --pod-selector='app=app-name'
