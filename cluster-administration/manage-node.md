@@ -12,3 +12,4 @@
 # Evacuating pods on nodes
 
 ### oc adm manage-node  node01 --evacuate --pod-selector='app=app-name'
+### oc adm drain node02 --pod-selector='app=app-nameapp=app-name'
