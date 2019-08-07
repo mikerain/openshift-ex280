@@ -16,3 +16,7 @@ oc project
 ### Switch to other project
 
 oc project 3scale
+
+### Delete project
+
+oc delete project test-pro
