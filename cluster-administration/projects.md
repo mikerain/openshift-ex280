@@ -5,7 +5,8 @@ oc new-project test-pro --description='project for test' --display-name='test-pr
 
 ### get list of projects
 
-oc get projects   ## display all project name along with display name and status
+oc get projects   ## display all project name along with display name and status.
+
 oc projects   ## display all project names and mark current project with star*.
 
 ### get current project name
