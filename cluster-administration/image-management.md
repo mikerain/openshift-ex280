@@ -15,7 +15,9 @@ oc registry info   //to get registry service name
     docker push <internal-registry>/<project-name>/<image-name>:tag    // This will result in Image Stream creation 
   
 ### Using OC commands
-oc tag 
+
+    oc tag <image-stream> <image-stream>
+    oc tag --source=docker <docker-image> <image-stream>
 
 
 
