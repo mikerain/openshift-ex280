@@ -35,6 +35,13 @@
     $ docker tag <image-name>:tag <internal-registry>/<project-name>/<image-name>:tag 
     $ docker push <internal-registry>/<project-name>/<image-name>:tag    // This will result in Image Stream creation 
   
+### Loading from tar ball
+
+    $ docker image load -i <file-name>.tar       // docker image save -o <file-name>.tar to convert image to tar file
+    $ docker tag <image-name>:tag <internal-registry>/<project-name>/<image-name>:tag 
+    $ docker push <internal-registry>/<project-name>/<image-name>:tag    // This will result in Image Stream creation 
+    
+    
 ### Using OC commands
 
     $ oc tag <image-stream> <image-stream>
