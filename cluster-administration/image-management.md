@@ -3,9 +3,9 @@
 
 ## Internal Registry Login
 
-docker login docker-registry.default.svc:5000 -u $(oc whoami) -p $(oc whoami -t)   //from any cluster node
+    docker login docker-registry.default.svc:5000 -u $(oc whoami) -p $(oc whoami -t)   //from any cluster node
 
-oc registry info   //to get registry service name
+    oc registry info   //to get registry service name
 
 ## RBAC for image-streams and Openshift registry
 
