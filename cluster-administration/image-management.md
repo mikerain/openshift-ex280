@@ -18,6 +18,18 @@ oc registry info   //to get registry service name
 
     oc tag <image-stream> <image-stream>
     oc tag --source=docker <docker-image> <image-stream>
+    
+## Removing images from internal registry    
+
+### Remove image-stream tag
+
+    oc tag <image-stream>:tag -d
+    
+### Remove image-stream
+
+    oc delete imagestream ruby
+    
+    
 
 
 
