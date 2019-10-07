@@ -11,8 +11,8 @@ oc registry info   //to get registry service name
 
 ### Using Docker commands
 docker tag <image-name>:tag <internal-registry>/<project-name>/<image-name>:tag 
-''''docker push <internal-registry>/<project-name>/<image-name>:tag''''  
-  // This will result in Image Stream creation 
+    
+    docker push <internal-registry>/<project-name>/<image-name>:tag    // This will result in Image Stream creation 
   
 ### Using OC commands
 oc tag 
