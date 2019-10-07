@@ -10,8 +10,8 @@ oc registry info   //to get registry service name
 ## Pushing images to internal registry
 
 ### Using Docker commands
-docker tag <image-name>:tag <internal-registry>/<project-name>/<image-name>:tag 
-    
+
+    docker tag <image-name>:tag <internal-registry>/<project-name>/<image-name>:tag 
     docker push <internal-registry>/<project-name>/<image-name>:tag    // This will result in Image Stream creation 
   
 ### Using OC commands
